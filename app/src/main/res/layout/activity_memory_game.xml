@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".viewAndController.GestureDetectGridView">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_weight="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tMemory"
+            android:layout_width="158dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="133dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="MEMORY"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="2" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <group_0617.csc207.gamecentre.viewAndController.GestureDetectGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context="group_0617.csc207.gamecentre.gameSlidingTiles.GameActivity" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+
+        <TextView
+            android:id="@+id/Score"
+            android:layout_width="162dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Time: "
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="2" />
+
+        <TextView
+            android:id="@+id/RealScore"
+            android:layout_width="162dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Score: "
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="2" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
